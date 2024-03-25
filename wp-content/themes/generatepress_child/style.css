@@ -1,0 +1,56 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+.product{
+    box-shadow: 0 0 5px;
+    
+}
+ .product h2 {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.5rem!important;
+    height: 50px;
+    text-align: center;
+
+}
+.woocommerce ul.products li.product a img {
+    aspect-ratio: 1;
+}
+.woocommerce ul.products li.product .price {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 25px;
+    text-align: center;
+
+
+}
+.woocommerce ul.products li.product .button{
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.woocommerce ul.products li.product .onsale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    top: -5px;
+    right: -5px;
+}
